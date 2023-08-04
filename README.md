@@ -19,7 +19,7 @@
 
 > 유클리드 거리 계산법을 사용해 임베딩된 이미지의 벡터값에서 각 인종을 대표하는 벡터값의 거리 차이를 구한다.
 
-> 거리값을 0과 1 사이의 값으로 정규화 한다. (normalized_distance = max_distance−min_distance/distance−min_distance)
+> 거리값을 0과 1 사이의 값으로 정규화 한다. (normalized_distance = distance−min_distance/max_distance−min_distance)
 
 > 1에서 정규화된 거리값을 뺀다.
 >> 이를 통해 가장 가까운 거리가 1에, 가장 먼 거리가 0에 매핑된다.
